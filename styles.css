@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding: 15vh 0;
+}
+
+.page {
+  background-color: whitesmoke;
+}
+
+#hero-section {
+  background-color: #77e4c8;
+  border-bottom: 5px solid #36c2ce;
+}
+
+.hero-text-container {
+  display: block;
+}
+
+#hero-h2 {
+  font-size: 2.3rem;
+}
+
+.hero-primary-title,
+.h2-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-primary-title {
+  color: #36c2ce;
+  font-size: 10vw;
+}
+
+.h2-title {
+  font-weight: 500;
+  font-size: 3.7rem;
+}
+
+.title {
+  color: #36c2ce;
+  display: flex;
+  justify-content: center;
+  font-size: 4vw;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-me-content {
+  text-align: center;
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.pic-jakob {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: top;
+  border: 5px solid #b1c2d38e;
+}
+
+#me-title {
+  margin: 2.5rem 0;
+}
+
+.serif-font {
+  font-family: "Times new roman", serif;
+}
+
+.about-me-text {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+#resume-section {
+  padding: 15vh 5vw;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Times new roman", serif;
+}
+
+#resume-title {
+  margin-bottom: 10vh;
+}
+
+.resume-container-items {
+  width: 20vw;
+  min-width: 100px;
+  padding: 2vw;
+  border: 2px solid grey;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+@media (max-width: 1200px) {
+  .resume-container-items {
+    flex: 1 1 100%;
+    margin: 40px auto;
+  }
+}
+
+.resume-titles {
+  margin-bottom: 45px;
+  font-size: 3vw;
+}
