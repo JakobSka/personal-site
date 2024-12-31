@@ -14,21 +14,19 @@ body {
 #hero-section {
   background-color: #77e4c8;
   border-bottom: 5px solid #36c2ce;
+  height: 100vh;
 }
 
 .hero-text-container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 #hero-h2 {
-  font-size: 2.3rem;
-}
-
-.hero-primary-title,
-.h2-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 2.8vw;
 }
 
 .hero-primary-title {
@@ -46,6 +44,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 4vw;
+  margin: 0;
 }
 
 .dancing-script {
@@ -69,6 +68,7 @@ body {
   border-radius: 50%;
   object-position: top;
   border: 5px solid #b1c2d38e;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
 }
 
 #me-title {
@@ -104,7 +104,7 @@ body {
   min-width: 100px;
   padding: 2vw;
   border: 2px solid grey;
-  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
   background-color: white;
 }
 
@@ -117,5 +117,66 @@ body {
 
 .resume-titles {
   margin-bottom: 45px;
-  font-size: 3vw;
+  font-size: 2.5vw;
+}
+
+.project-container {
+  display: flex;
+  width: 100%;
+}
+
+.project {
+  width: 100%;
+  height: 40vh;
+  margin: 0 5vw;
+  border: 0.5vw solid rgb(54, 194, 206, 0.1);
+  border-radius: 30px;
+  background-color: rgb(54, 194, 206, 0.35);
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+}
+
+.projects-row-1 {
+  margin-bottom: 8vh;
+}
+
+.projects-row-2 {
+  margin-top: 8vh;
+}
+
+.project > h3 {
+  font-family: "Times new roman", serif;
+  font-size: 3vh;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.project > img {
+  width: 70%;
+  display: block;
+  margin: 0.5vh auto;
+  height: 30vh;
+  object-fit: contain;
+}
+
+.project > p {
+  font-family: "Times new roman", serif;
+  margin-left: 10px;
+}
+
+#contact-me-section > h3 {
+  font-family: serif;
+  color: #088395;
+  text-align: center;
+  margin: 10vh 0;
+}
+
+.email-button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 40px;
+  padding: 1.5vw;
+  display: block;
+  margin: auto;
 }
